@@ -20,13 +20,17 @@ public class test1 {
 
        if(three.equals("+")) {
            System.out.println(one +"+ " +two + " = " + (one+two) );
-       } else if(three.equals("-")) {
+       }
+       else if(three.equals("-")) {
            System.out.println(one +"+ " +two + " = " + (one-two) );
-       } else if(three.equals("*")) {
+       }
+       else if(three.equals("*")) {
            System.out.println(one +"+ " +two + " = " + (one*two) );
-       } else if(three.equals("/")) {
+       }
+       else if(three.equals("/")) {
            System.out.println(one +"+ " +two + " = " + (one/two) );
-       } else {
+       }
+       else {
            System.out.println("잘못입력하셨습니다." );
        }
 
